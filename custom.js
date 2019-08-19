@@ -1,9 +1,8 @@
 function validateform(){
-    var day = document.getElementById("day-to-earth").value;
-    var month = document.getElementById("month-to-earth").value;
-    var year = document.getElementById("year").value;
-    var centuryCentury = Number(year.slice(0,2));
-    var yearYear = Number(year.slice(2,4));
+    var day = Number(document.getElementById("day-to-earth").value);
+    var month = Number(document.getElementById("month-to-earth").value);
+    var year = Number(document.getElementById("year").value);
+    var century = Number(document.getElementById("century").value);
     var genderSelected = document.getElementsByName("gender");
     function genderPicked() {
         for (var gender of genderSelected) {
@@ -13,7 +12,7 @@ function validateform(){
         }
     }
     var genderValue = genderPicked();
-    alert(genderValue);
+    // alert(genderValue);
     function dayValid () {
         if (day < 1 || day > 31) {
             alert("Invalid day")
@@ -30,39 +29,41 @@ function validateform(){
             return true;
         }
     }
+  
     var isDayValid = dayValid();
     var isMonthValid = monthValid();
-    var dayIndex = Math.round(( ( (centuryCentury/4) -2*centuryCentury-1) + ((5*yearYear/4) ) + ((26*(month+1)/10)) + day) % 7);
+
+    var dayIndex = Math.round(( ( (century/4) -2*century-1) + ((5*year/4) ) + ((26*(month+1)/10)) + day) % 7);
  var akanName;
     if (genderValue === "male") {
         switch(dayIndex) {
                 case 0:
             akanName = "Kwasi";
-            alert("Kwasi");
+            alert("Your name is Kwasi");
             break;
             case 1:
             akanName = "Kwadwo";
-            alert("Kwadwo");
+            alert("Your name is Kwadwo");
             break;
             case 2:
             akanName = "Kwabena";
-            alert("Kwabena");
+            alert("Your name is Kwabena");
             break;
             case 3:
             akanName = "Kwaku";
-            alert("Kwaku");
+            alert("Your name is Kwaku");
             break;
             case 4:
             akanName = "Yaw";
-            alert("Yaw");
+            alert("Your name is Yaw");
             break;
             case 5:
             akanName = "Kofi";
-            alert("Kofi");
+            alert("Your name is Kofi");
             break;
             case 6:
             akanName = "Kwame";
-            alert("Kwame");
+            alert("Your name is Kwame");
             break;
             default:
             akanName = "Please input the correct details!"
@@ -72,31 +73,31 @@ function validateform(){
         switch(dayIndex) {
                 case 0:
                 akanName = "Akosua";
-                alert("Akosua");
+                alert("Your name is Akosua");
                 break;
                 case 1:
                 akanName = "Adwoa";
-                alert("Adwoa");
+                alert("Your name is Adwoa");
                 break;
                 case 2:
                 akanName = "Abenaa";
-                alert("Abenaa");
+                alert("Your name is Abenaa");
                 break;
                 case 3:
                 akanName = "Akua";
-                alert("Akua");
+                alert("Your name is Akua");
                 break;
                 case 4:
                 akanName = "Yaa";
-                alert("Yaa");
+                alert("Your name is Yaa");
                 break;
                 case 5:
                 akanName = "Afua";
-                alert("Afua");
+                alert("Your name is Afua");
                 break;
                 case 6:
                 akanName = "Ama";
-                alert("Ama");
+                alert("Your name is Ama");
                 break;
                 default:
                 akanName = "Please input the correct details!"
