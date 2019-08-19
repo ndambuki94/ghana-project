@@ -8,7 +8,7 @@ In this website it is basically a calculator of age to display the akan name acc
 * An active internet
 * A computer or network access device
 * link to the website or the url
-*  
+*  https://ndambuki94.github.io/ghana-project/
 
 ## Known Bugs
 The site at first was not responding.
