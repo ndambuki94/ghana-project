@@ -1,6 +1,6 @@
-# My Portfolio website
+# Ghana Akan Naming System
 This is my second project on Akan names.
-#### By **Nzilani Onesmus.*
+#### By **Nzilani Onesmus.**
 ## Description
 In this website it is basically a calculator of age to display the akan name according to the Ghanian way of naming. Names are given in accordance with the day one was born i.e from monday to sunday.
 ## Steps to visit the Websites
@@ -13,9 +13,9 @@ In this website it is basically a calculator of age to display the akan name acc
 ## Known Bugs
 The site at first was not responding.
 ## Technologies/Languages Used
-html-create the  web structure
-css -customize and style the web structure
-markdown - Extensively create a detailed readme
+Html-create the  web structure
+Css -customize and style the web structure
+Markdown - Extensively create a detailed readme
 Javascript - Largely used for the interaction of the page with the user.
 ## Support and contact details
 incase you are unable to access any details fro the website, feel free to submit an email to ndambuki94@gmail.com
