@@ -1,76 +1,17 @@
 body {
     margin: 0;
     padding: 0;
-    background-image: url(./images/terrific.png);
+    background-image: url(images/GhanianTribes.jpg);
     background-size: cover;
     font-family: sans-serif;
     height: 150vh;
     background-repeat: no-repeat;
-  
-    
-  }
-  .akuta{
-    
-    color:white;
-    top: 4%;
-    left: 50%;
-    position: absolute;
-    transform: translate(-50%, 50%);
-   
-    padding: 70px 30px;
-    margin-bottom: 20%;
-   
+}
+.head{
     text-align: center;
-    
-  
-  }
-  h2{
-   
-    padding-left:-2px;
-    text-align: center;
-    font-size: 22px;
-    color:white ;
-  }
-  .akuta p{
-    margin: 0;
-    padding:0;
-    margin-bottom: 20px;
-    font-weight:bold;
-  }
-  .akuta input[type="submit"]{
-    border:none;
-    outline: none;
-    height:40px;
-    background: #fb2525;
-    color: #fff;
-    font-size: 18px;
-    border-radius: 20px;
-  }
-  .akuta input[type="submit"]:hover{
-    cursor:pointer;
-    background: yellow;
-    color:#000;
-  }
-  h1 {
-    font-family: 'Times New Roman', Times, serif;
-    
-    color:white;
-  
-  }
-  p{
-    color: #fff;
-    text-align: center;
-    font-weight: bold;
-  }
-  .avatar{
-     
-      /* width:60%; */
-      /* height: 20%; */
-      border-radius:50%;
-      position: absolute;
-      top: -50px;
-      left: 50%;
-      align-items: center;
-    
-    
+    color: chartreuse;
+}
+  .one{
+      text-align: center;
+    color: chartreuse;
   }

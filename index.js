@@ -1,8 +1,8 @@
 function validateform(){
-    var day = document.getElementById("day").value;
-    var month = document.getElementById("month").value;
+    var day = document.getElementById("day-to-earth").value;
+    var month = document.getElementById("month-to-earth").value;
     var year = document.getElementById("year").value;
-    var centuary = document.getElementById("centuary").value;
+    var century = document.getElementById("century").value;
     var gender = document.getElementsByName("gender");
    
   
