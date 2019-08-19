@@ -13,10 +13,11 @@ In this website it is basically a calculator of age to display the akan name acc
 ## Known Bugs
 The site at first was not responding.
 ## Technologies/Languages Used
-Html-create the  web structure
-Css -customize and style the web structure
-Markdown - Extensively create a detailed readme
-Javascript - Largely used for the interaction of the page with the user.
+* Html-create the  web structure
+* Css -customize and style the web structure
+* Markdown - Extensively create a detailed readme
+* Javascript - Largely used for the interaction of the page with the user.
+* W3schools- For reference and more information on the making of the web
 ## Support and contact details
 incase you are unable to access any details fro the website, feel free to submit an email to ndambuki94@gmail.com
 
